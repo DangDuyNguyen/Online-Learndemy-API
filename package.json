@@ -1,0 +1,27 @@
+{
+  "name": "onlineacademy",
+  "version": "1.0.0",
+  "description": "Online Academy API",
+  "main": "index.js",
+  "scripts": {
+    "api": "nodemon ./srcs/index.js",
+    "start": "node ./srcs/index.js"
+  },
+  "author": "Nguyen Dang Duy",
+  "license": "ISC",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "ajv": "^6.12.6",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6"
+  }
+}
